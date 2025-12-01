@@ -1,0 +1,6 @@
+2025-11-27 14:38:53 - app_logger - INFO - 모델 로드 성공
+2025-11-27 14:39:53 - app_logger - ERROR - App Crash: 'Conv' object has no attribute 'bn'
+2025-11-27 14:41:13 - app_logger - INFO - 모델 로드 성공
+2025-11-27 14:42:58 - app_logger - INFO - 로그 저장 완료: logs/analysis_20251127_144258.csv
+2025-11-27 14:44:49 - app_logger - INFO - 모델 로드 성공
+2025-11-27 14:49:39 - app_logger - INFO - 모델 로드 성공

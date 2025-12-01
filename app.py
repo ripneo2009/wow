@@ -7,6 +7,8 @@ import time
 import os
 import pandas as pd
 from datetime import datetime
+import torch
+torch.serialization.add_safe_globals([__import__("ultralytics").nn.tasks.DetectionModel])
 
 # 모듈 임포트
 from config import PROJECT_TITLE, PROJECT_ICON, LAYOUT, SAMPLE_VIDEO_PATH

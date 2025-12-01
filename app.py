@@ -1,6 +1,8 @@
 """
 CCTV 군중 위험도 감지 시스템 메인 애플리케이션
 """
+import os
+os.environ["OPENCV_VIDEOIO_PRIORITY_MSMF"] = "0"
 import streamlit as st
 import cv2
 import time
